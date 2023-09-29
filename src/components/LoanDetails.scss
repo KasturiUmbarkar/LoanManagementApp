@@ -1,0 +1,27 @@
+.product-main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
+}
+
+.product-header {
+  color: gray;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97%;
+  margin: 5px;
+}
+
+.error-text {
+  margin: 0;
+  float: right;
+  text-align: right;
+  color: #e50404;
+}
+
+.hide-error {
+  display: none;
+}
+
